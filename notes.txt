@@ -1,0 +1,2 @@
+export (like before the word class) means it can be used in another file.
+    - use import in the other file to make it accessable within that file
