@@ -3,3 +3,4 @@ import: used in the other file to make it accessable within that file
 class: how an instance (or object) should look. a class is a blueprint of an object
 property: classes contain properties, like variables
 methods: classes have methods; these have parenthesis and a funtion body with code to execute
+types: indicates what the variable is, like string. format is "aNumber: number". typescript can still infer types
