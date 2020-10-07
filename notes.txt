@@ -1,2 +1,5 @@
-export (like before the word class) means it can be used in another file.
-    - use import in the other file to make it accessable within that file
+export: (like before the word class) means it can be used in another file.
+import: used in the other file to make it accessable within that file
+class: how an instance (or object) should look. a class is a blueprint of an object
+property: classes contain properties, like variables
+methods: classes have methods; these have parenthesis and a funtion body with code to execute
