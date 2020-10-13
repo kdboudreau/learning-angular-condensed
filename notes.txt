@@ -1,9 +1,12 @@
-typescript features:
+-- typescript features:
 export: (like before the word class) means it can be used in another file.
 import: used in the other file to make it accessable within that file
 class: how an instance (or object) should look. a class is a blueprint of an object
 property: classes contain properties, like variables
 methods: classes have methods; these have parenthesis and a funtion body with code to execute
 types: indicates what the variable is, like string. format is "aNumber: number". typescript can still infer types
-@: decorator. this is a function which can attach to other constructs (like a class). it will always refer to what comes right 
+@: decorator. this is a function which can attach to other constructs (like a class). it will always refer to what comes right
     after it. it can also be added to properties
+
+-- components
+angular adjusts the dom after the page is loaded
