@@ -9,4 +9,5 @@ types: indicates what the variable is, like string. format is "aNumber: number".
     after it. it can also be added to properties
 
 -- components
-angular adjusts the dom after the page is loaded
+angular adjusts the dom after the page is loaded. the html files get parsed and created as js, then adjust the dom based on
+    template when the time comes
