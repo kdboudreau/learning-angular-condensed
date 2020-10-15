@@ -11,3 +11,5 @@ types: indicates what the variable is, like string. format is "aNumber: number".
 -- components
 angular adjusts the dom after the page is loaded. the html files get parsed and created as js, then adjust the dom based on
     template when the time comes
+string interpolation
+selector: this defines a css selector by which angular will identify this element (can also use a class, thoguh not common)
