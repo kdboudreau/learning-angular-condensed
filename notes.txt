@@ -15,4 +15,6 @@ string interpolation
 selector: this defines a css selector by which angular will identify this element (can also use a class, thoguh not common)
 templateUrl: defines what to render. this is what to render when the selector is found
 styleUrls: defines all the styles that should be applied to the template using the selector
-only the AppComponent will be searched for by the index.html because it was added to the bootstrap array in app.module.ts
+only the AppComponent will be searched for by the index.html because it was added to the bootstrap array in app.module.ts (the
+    bootstrap is the angular app, adding another component will create another app)
+    adding UserComponent (and all new components) in the declarations in app.module.ts to make angular aware that its part of the app
