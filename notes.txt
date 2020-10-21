@@ -14,4 +14,5 @@ angular adjusts the dom after the page is loaded. the html files get parsed and 
 string interpolation
 selector: this defines a css selector by which angular will identify this element (can also use a class, thoguh not common)
 templateUrl: defines what to render. this is what to render when the selector is found
-styleUrls: defines all the stu=yles that should be applied to the template using the selector
+styleUrls: defines all the styles that should be applied to the template using the selector
+only the AppComponent will be searched for by the index.html because it was added to the bootstrap array in app.module.ts
