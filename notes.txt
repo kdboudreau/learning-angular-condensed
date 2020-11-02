@@ -22,7 +22,10 @@ only the AppComponent will be searched for by the index.html because it was adde
 use double curly braces only in templates controlled by angular (not index.html)
 
 - event listening
-in JS could add event listener 'yourInput.addEventListener('eventName', 'function(that handles this'))'
-in angular can add event listening by adding extra feature, syntax includes '(eventName)=function(that handles this)'
+in JS could add event listener "yourInput.addEventListener('eventName', 'function(that handles this'))"
+in angular can add event listening by adding extra feature, syntax includes "(eventName)=function(that handles this)"
     event object passed into event handler automatically, angular automatically assigns name of $event this event object
+
  - property binding
+bind to property by enclosing in brackets then assign value without braces "[value] = 'name'"
+    here we bind to the value property of the input element object (instead of setting the attribute to some text)
