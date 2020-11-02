@@ -25,3 +25,4 @@ use double curly braces only in templates controlled by angular (not index.html)
 in JS could add event listener 'yourInput.addEventListener('eventName', 'function(that handles this'))'
 in angular can add event listening by adding extra feature, syntax includes '(eventName)=function(that handles this)'
     event object passed into event handler automatically, angular automatically assigns name of $event this event object
+ - property binding
