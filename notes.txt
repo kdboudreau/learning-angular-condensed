@@ -33,3 +33,6 @@ bind to property by enclosing in brackets then assign value without braces "[val
 - two way binding
 effectively combines event listening and property binding. syntax "[(ngModel)]='name'". angular manages the binding in both directions
     can only do this on an element that has a value property it can bind to and will emit an ipnut event
+
+directive: instructions you place in templates; components are directives (like replace with my template from component)
+directive allows you to adjust parts of element it sits on
