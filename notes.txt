@@ -29,3 +29,7 @@ in angular can add event listening by adding extra feature, syntax includes "(ev
  - property binding
 bind to property by enclosing in brackets then assign value without braces "[value] = 'name'"
     here we bind to the value property of the input element object (instead of setting the attribute to some text)
+
+- two way binding
+effectively combines event listening and property binding. syntax "[(ngModel)]='name'". angular manages the binding in both directions
+    can only do this on an element that has a value property it can bind to and will emit an ipnut event
