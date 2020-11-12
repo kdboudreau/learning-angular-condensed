@@ -39,3 +39,4 @@ directive allows you to adjust parts of element it sits on
 
 - binding component properties
 can use a decorator on a property. ex. @Input() is an angular function
+in html need to use both quotes around string, because in angular inside of double quotes is typescript code ex [name] "'Kat'"

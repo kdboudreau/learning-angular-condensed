@@ -2,7 +2,6 @@ import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-user',
-  // template: '<p>Hello</p>',
   template: `
     <input type="text" [(ngModel)]="name">
     <p>Hello {{ name }}!</p>
@@ -10,7 +9,7 @@ import { Component, Input } from '@angular/core';
   `
 })
 export class UserComponent {
-  @Input() name = 'Kat';
+  @Input() name;
 
   onUserInput(event) {
     this.name = event.target.value;
