@@ -36,3 +36,6 @@ effectively combines event listening and property binding. syntax "[(ngModel)]='
 
 directive: instructions you place in templates; components are directives (like replace with my template from component)
 directive allows you to adjust parts of element it sits on
+
+- binding component properties
+can use a decorator on a property. ex. @Input() is an angular function
