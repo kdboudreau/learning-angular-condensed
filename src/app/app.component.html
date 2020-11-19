@@ -16,4 +16,4 @@
 </div>
 <P>Some Text!</P>
 
-<app-user [name]="'KBou'"></app-user>
+<app-user [name]="rootName" (nameChanged)="onNameChanged($event)"></app-user>
