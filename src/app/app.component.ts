@@ -10,6 +10,6 @@ export class AppComponent {
   rootName = 'Kat';
 
   onNameChanged(newName) {
-    this.rootName = newName
+    this.rootName = newName;
   }
 }

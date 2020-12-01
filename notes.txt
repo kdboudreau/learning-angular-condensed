@@ -42,3 +42,6 @@ can use a decorator on a property. ex. @Input() is an angular function
 in html need to use both quotes around string, because in angular inside of double quotes is typescript code ex [name] "'Kat'"
 
 -listening to custom events
+
+- using cli for creating components
+side note: .spec.ts files used for unit testing
