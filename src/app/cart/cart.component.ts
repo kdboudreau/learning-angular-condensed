@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CartComponent implements OnInit {
   @Input() items = [];
+  newItem: string;
 
   constructor() { }
 
