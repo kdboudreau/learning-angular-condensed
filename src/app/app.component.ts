@@ -12,4 +12,6 @@ export class AppComponent {
   onNameChanged(newName) {
     this.rootName = newName;
   }
+
+  rootItems = ['Apples', 'Bananas', 'Cherries']
 }
