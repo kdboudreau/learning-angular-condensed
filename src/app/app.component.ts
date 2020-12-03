@@ -13,5 +13,10 @@ export class AppComponent {
     this.rootName = newName;
   }
 
-  rootItems = ['Apples', 'Bananas', 'Cherries']
+  rootItems = ['Apples', 'Bananas', 'Cherries'];
+
+  onItemWasAdded(newItem) {
+    this.rootItems.push(newItem);
+    console.log(this.rootItems);
+  }
 }
