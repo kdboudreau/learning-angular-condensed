@@ -5,8 +5,8 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './Old Files/user.component';
 import { FormsModule } from '@angular/forms';
 import { DashboardComponent } from './Old Files/dashboard.component';
-import { UserDetailComponent } from './Old Files/user-detail/user-detail.component';
-import { CartComponent } from './cart/cart.component';
+import { UserDetailComponent } from './user-detail/user-detail.component';
+import { CartComponent } from './Old Files/cart/cart.component';
 
 @NgModule({
   declarations: [
