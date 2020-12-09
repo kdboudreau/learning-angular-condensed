@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'angular-essentials';
   rootName = 'Kat';
+  number = 0;
 
   onNameChanged(newName) {
     this.rootName = newName;
@@ -18,5 +19,9 @@ export class AppComponent {
   onItemWasAdded(newItem) {
     this.rootItems.push(newItem);
     console.log(this.rootItems);
+  }
+
+  onIncrease() {
+    this.number = this.number * 2;
   }
 }
