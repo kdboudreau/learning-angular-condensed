@@ -16,8 +16,10 @@
 </div>
 <P>Some Text!</P>
 
-<p>{{ number }}</p>
-<button (click)="onIncrease()">Increase Number</button>
+<div>
+  <p>{{ number }}</p>
+  <button (click)="onIncrease()" class="btn btn-primary">Increase Number</button>
+</div>
 
 <app-user [name]="rootName" (nameChanged)="onNameChanged($event)"></app-user>
 <!-- <app-cart [items]="rootItems" (itemAdded)="onItemWasAdded($event)"></app-cart> -->
