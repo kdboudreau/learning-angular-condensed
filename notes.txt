@@ -45,3 +45,5 @@ in html need to use both quotes around string, because in angular inside of doub
 
 - using cli for creating components
 side note: .spec.ts files used for unit testing
+
+- imported npm install --save @types/lodash to be able to use lodash javascript library in a way typescript would understand

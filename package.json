@@ -18,7 +18,9 @@
     "@angular/forms": "~8.2.14",
     "@angular/platform-browser": "~8.2.14",
     "@angular/platform-browser-dynamic": "~8.2.14",
+    "@types/lodash": "^4.14.168",
     "bootstrap": "^4.5.3",
+    "lodash": "^4.17.20",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"

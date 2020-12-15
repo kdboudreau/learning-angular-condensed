@@ -1,4 +1,12 @@
 import { Component } from '@angular/core';
+// import 'lodash';
+import { random } from 'lodash';
+
+// declare var _: any;
+  // on compile get error because it cant find lodash symbol since it isnt a variable or property we defined.
+  // so we declare a variable here so we can access it
+
+
 
 @Component({
   selector: 'app-root',
@@ -22,6 +30,7 @@ export class AppComponent {
   }
 
   onIncrease() {
-    this.number = this.number * 2;
+    // this.number = this.number * 2;
+    this.number = random(1, 10);
   }
 }
