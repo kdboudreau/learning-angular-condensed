@@ -50,4 +50,8 @@ side note: .spec.ts files used for unit testing
 
 Directives!
 - directives are instructions placed in your template
-
+- and example of a directive that's not a component is "ngFor".
+- a star in front of a directive indicates that its a structural diective (aka changes the structure of the dom)
+   - dont need brackets [] because the * tells angular that it needs to do more work in the background for us
+   - ngFor uses typescript/es6 "for of" syntax
+   - {{ }} is string interpolation to output the item
