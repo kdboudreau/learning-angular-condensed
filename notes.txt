@@ -51,7 +51,17 @@ side note: .spec.ts files used for unit testing
 Directives!
 - directives are instructions placed in your template
 - and example of a directive that's not a component is "ngFor".
-- a star in front of a directive indicates that its a structural diective (aka changes the structure of the dom)
+- there are two types of directives: structural (aka changes the structure of the dom) and attribute
+- a star in front of a directive indicates that its a structural dirctive
    - dont need brackets [] because the * tells angular that it needs to do more work in the background for us
    - ngFor uses typescript/es6 "for of" syntax
    - {{ }} is string interpolation to output the item
+- ngModel is an example of an attribute directive
+- ngClass is another attribute directive
+* all directives that start with "ng" are shipped with angular (so no need to extra import)
+- need to pass some data to a property in the directive, and for the ngClass directive the property name is also ngClass
+   - so the directive is not [ngClass], this was written in a way where we can combine the directive and property
+     into just [ngClass] (this is the case for all directives that have the same name as the property name)
+   - alternative it would look like this, where the directive would sit on an element then we set the property
+      ex. <div ngClass [ngClass]="valueBlah">
+- another structural directive is ngIf. ngIf will attach or detach an element to the dom (not just make it visible or hidden)
