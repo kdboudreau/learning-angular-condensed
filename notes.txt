@@ -65,3 +65,7 @@ Directives!
    - alternative it would look like this, where the directive would sit on an element then we set the property
       ex. <div ngClass [ngClass]="valueBlah">
 - another structural directive is ngIf. ngIf will attach or detach an element to the dom (not just make it visible or hidden)
+
+Services!
+- services are extra typescript classes we can create which can centralize some code (eliminating duplication)
+- ex. logging data, storing user data
