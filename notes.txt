@@ -69,3 +69,10 @@ Directives!
 Services!
 - services are extra typescript classes we can create which can centralize some code (eliminating duplication)
 - ex. logging data, storing user data
+- dependency injection example: "constructor(swService: StarWarsService) { }"
+    - constructor() is a default function which is executed whenever the component is instantiated
+    - need to add a providers property in the files that use the service for a fresh instance in each, or in modules.ts for
+        a shared instance across the app since it bundles all the features of the app in that file
+- "ng g s blah" creates a service of name blah
+- can inject a services into a service (must be listed in the providers prop in app.module, wont work if listed anywhere else)
+    - also need to add @Injectable decorator into the file where you add the dependency in the constructor
